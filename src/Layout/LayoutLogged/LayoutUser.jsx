@@ -32,7 +32,7 @@ const LayoutUser = () => {
             <Link
               className="nav-link dropdown-toggle"
               id="navbarDropdown"
-              to="#"
+              to=""
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -44,7 +44,7 @@ const LayoutUser = () => {
               aria-labelledby="navbarDropdown"
             >
               <li>
-                <Link className="dropdown-item" to="#!">
+                <Link className="dropdown-item" to="">
                   Configuración
                 </Link>
               </li>
