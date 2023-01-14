@@ -22,12 +22,13 @@ import ReclamosUser from "../ViewsLogged/ViewsUser/ReclamosUser";
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<LayoutMain />}>
+      <Route path="" element={<LayoutMain />}>
         <Route index element={<Main />}></Route>
         <Route path="login" element={<Login />}></Route>
         <Route path="form" element={<Form />}></Route>
       </Route>
       <Route path="*" element={<Page_404 />}></Route>
+
       {/* Protected Routes */}
       {/* user */}
       <Route element={<PersistLogin />}>

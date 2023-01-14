@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Page_404 = () => {
   return (
     <div className="container-notAuthorized">
-      <h2>No autorizado</h2>
+      <h2>No existe</h2>
       <Link className="link_return" to={-1}>
         Volver Atrás
       </Link>
