@@ -30,34 +30,9 @@ const LayoutAdmin = () => {
         </button>
         <ul className="navbar-nav ms-auto ms-md-6 me-3 me-lg-4">
           <li className="nav-item dropdown">
-            <Link
-              className="nav-link dropdown-toggle"
-              id="navbarDropdown"
-              to="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <i className="fas fa-user fa-fw"></i>
-            </Link>
-            <ul
-              className="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdown"
-            >
-              <li>
-                <Link className="dropdown-item" to="#!">
-                  Configuración
-                </Link>
-              </li>
-              <li>
-                <hr className="dropdown-divider" />
-              </li>
-              <li>
-                <button className="dropdown-item" onClick={signOut}>
-                  Salir de la cuenta
-                </button>
-              </li>
-            </ul>
+            <button className="dropdown-item" onClick={signOut}>
+              Salir de la cuenta
+            </button>
           </li>
         </ul>
       </nav>
